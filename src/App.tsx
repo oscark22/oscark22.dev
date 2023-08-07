@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="relative flex bg-[#030D1F] w-full h-full z-0">
       <Navbar />
-      {/* <Home /> */}
+      <Home />
     </div>
   );
 }
