@@ -13,6 +13,9 @@ export default {
         tertiary: "#DADADA",
       },
     },
+    backgroundImage: {
+      "wave-pattern": "url('/src/assets/waves.png')",
+    },
   },
   plugins: [],
 };
