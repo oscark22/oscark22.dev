@@ -6,12 +6,10 @@ const Navbar = () => {
 
   return (
     <div className="flex w-full paddingX pt-6 align-middle justify-between top-0 z-20">
-      <div className="flex">
-        <p className="text-white text-[16px]">Logo</p>
-      </div>
+      <img src="/logo.png" className="object-cover w-10 sm:w-12" />
 
       <div className="hidden sm:flex">
-        <div className="flex gap-12">
+        <div className="flex gap-12 self-center">
           {links.map((item, idx) => (
             <a
               key={idx}
@@ -24,7 +22,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex sm:hidden">
+      <div className="flex sm:hidden self-center">
         {toggle ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"

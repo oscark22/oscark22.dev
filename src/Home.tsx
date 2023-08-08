@@ -10,7 +10,7 @@ const Home = () => (
             I enjoy making computer programs, one line at a time.
           </h1>
           <p className="text-tertiary mt-6 sm:mt-16 text-md">
-            I love building backed applications, managing cloud infrastructure
+            I love building backend applications, managing cloud infrastructure
             and designing complex systems.
           </p>
         </div>
