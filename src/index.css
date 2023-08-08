@@ -12,4 +12,8 @@
   .paddingY {
     @apply sm:py-16 py-6;
   }
+
+  .marginTop {
+    @apply sm:pt-24 pt-8;
+  }
 }

@@ -1,7 +1,7 @@
 import ComputerCanvas from "./components/Computer";
 
 const Home = () => (
-  <section className="relative w-full h-screen mx-auto bg-wave-pattern bg-cover bg-no-repeat bg-center">
+  <section>
     <div className="absolute flex top-[100px] inset-0 paddingX sm:mt-20">
       <div className="flex flex-col lg:flex-row">
         <div className="flex flex-col">

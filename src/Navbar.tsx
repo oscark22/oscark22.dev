@@ -5,7 +5,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="flex bg-[#030D1F] w-full paddingX py-6 align-middle justify-between fixed top-0 z-20">
+    <div className="flex w-full paddingX pt-6 align-middle justify-between top-0 z-20">
       <div className="flex">
         <p className="text-white text-[16px]">Logo</p>
       </div>
