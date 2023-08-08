@@ -26,8 +26,8 @@ const Computer: React.FC<Computer> = ({ isMobile }) => {
         />
         <primitive
           object={computerGLTF.scene}
-          scale={isMobile ? 1.4 : 1.1}
-          position={isMobile ? [0, -1, 0] : [0, 0.48, 0]}
+          scale={isMobile ? 0.6 : 0.8}
+          position={isMobile ? [0, 2.1, 0] : [0, 1.4, 0]}
           rotation={[0, 1.06, 0]}
         />
       </mesh>
@@ -39,7 +39,7 @@ const ComputerCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 1024px)");
+    const mediaQuery = window.matchMedia("(max-width: 620px)");
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event: MediaQueryListEvent) => {
