@@ -4,19 +4,22 @@ import { blueRectangles } from "./constants";
 const Aboutme = () => {
   return (
     <section className="w-full h-screen mx-auto">
-      <div className="flex flex-row marginTop">
-        <div className="flex flex-col w-6/12 align-middle px-6">
-          <img src="src/assets/me.png" className="object-cover object-center" />
+      <div className="flex flex-col lg:flex-row marginTop">
+        <div className="flex flex-col mb-6 lg:mb-0 align-middle px-6 items-center lg:min-w-[400px]">
+          <img
+            src="src/assets/me.png"
+            className="object-cover object-center w-80 md:w-96"
+          />
         </div>
         <div className="flex flex-col paddingX">
           <h2 className="text-5xl font-serif">About me</h2>
-          <p className="mt-8">
+          <p className="mt-5 sm:mt-8">
             Oscar Encinas is a software engineer with a huge focus on building
             backend applications. He has worked with technologies such as
             Docker, AWS, Spring Boot, Express, Kubernetes, and well-known
             programming languages.
-            <br />
-            <br />
+          </p>
+          <p className="mt-5 sm:mt-8">
             He also enjoys designing new systems, working in the cloud, and
             playing board games with his friends in his spare time, especially{" "}
             <a
@@ -52,7 +55,7 @@ const Aboutme = () => {
             </a>
             .
           </p>
-          <div className="flex flex-col gap-2 mt-12">
+          <div className="flex flex-col gap-2 mt-9 sm:mt-12 mb-6 sm:mb-0">
             {blueRectangles.map(({ text, icon }, idx) => (
               <BlueRectangle key={idx} text={text}>
                 {icon}

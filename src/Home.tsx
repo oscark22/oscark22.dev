@@ -18,7 +18,7 @@ const Home = () => (
       </div>
     </div>
 
-    <div className="hidden sm:flex absolute bottom-8 w-full justify-center">
+    <div className="hidden lg:flex absolute bottom-8 w-full justify-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="26"
