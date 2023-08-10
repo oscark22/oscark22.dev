@@ -3,7 +3,7 @@ import { blueRectangles } from "./constants";
 
 const Aboutme = () => {
   return (
-    <section className="w-full h-screen mx-auto">
+    <section className="w-full min-h-screen mx-auto">
       <div className="flex flex-col lg:flex-row marginTop">
         <div className="flex flex-col mb-6 lg:mb-0 align-middle px-6 items-center lg:min-w-[400px]">
           <img
@@ -55,7 +55,7 @@ const Aboutme = () => {
             </a>
             .
           </p>
-          <div className="flex flex-col gap-2 mt-9 sm:mt-12 mb-6 sm:mb-0">
+          <div className="flex flex-col gap-2 mt-9 sm:mt-12 mb-6">
             {blueRectangles.map(({ text, icon }, idx) => (
               <BlueRectangle key={idx} text={text}>
                 {icon}

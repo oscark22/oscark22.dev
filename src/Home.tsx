@@ -2,13 +2,13 @@ import ComputerCanvas from "./components/Computer";
 
 const Home = () => (
   <section className="relative w-full h-full mx-auto">
-    <div className="absolute flex flex-col xl:flex-row top-[60px] xl:top-[100px] inset-0 paddingX md:mt-12 xl:mt-20">
+    <div className="absolute flex flex-col xl:flex-row top-[60px] xl:top-[100px] inset-0 paddingX mt-12 lg:mt-20">
       <div className="flex flex-col">
         <p className="text-tertiary">Hi, My name is Oscar Encinas</p>
         <h1 className="text-6xl sm:text-7xl text-white font-serif max-w-8xl">
           I enjoy making computer programs, one line at a time.
         </h1>
-        <p className="text-tertiary mt-6 lg:mt-16 text-md">
+        <p className="text-tertiary mt-6 lg:mt-12 text-md">
           I love building backend applications, managing cloud infrastructure
           and designing complex systems.
         </p>

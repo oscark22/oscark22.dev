@@ -88,4 +88,34 @@ const blueRectangles = [
   },
 ];
 
-export { links, blueRectangles };
+const jobs = [
+  {
+    date: "02/2023 - present",
+    company: "CEVIT",
+    title: "Software Developer",
+    description:
+      "Develop a web-based application to manage data acess, manipulation and safety.",
+    logo: "/src/assets/cevit.jpeg",
+    iconBgColor: "#241e20",
+  },
+  {
+    date: "03/2023 - 05/2023",
+    company: "Dialight",
+    title: "Software Developer Intern",
+    description:
+      "I worked with a quality control app that implemented barcode scanners for its functionality.",
+    logo: "/src/assets/dialight.jpg",
+    iconBgColor: "#ffffff",
+  },
+  {
+    date: "06/2022 - 08/2022",
+    company: "CETYS University",
+    title: "Frontend Software Developer",
+    description:
+      "Built the Expo Engineering 22' website. It was used by hundreds of judges and alumni to review and rate the event's projects.",
+    logo: "/src/assets/school.png",
+    iconBgColor: "#000000",
+  },
+];
+
+export { links, blueRectangles, jobs };
