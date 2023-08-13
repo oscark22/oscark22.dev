@@ -15,6 +15,7 @@ export default {
     },
     backgroundImage: {
       "wave-pattern": "url('/src/assets/waves.png')",
+      "wave-pattern-2": "url('/src/assets/waves2.png')",
     },
   },
   plugins: [],

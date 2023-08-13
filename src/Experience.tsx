@@ -26,15 +26,19 @@ const Experience = () => {
       </div>
       <VerticalTimeline lineColor="white">
         {jobs.map(
-          ({
-            date,
-            company,
-            title,
-            description,
-            logo,
-            iconBgColor,
-          }: Experience) => (
+          (
+            {
+              date,
+              company,
+              title,
+              description,
+              logo,
+              iconBgColor,
+            }: Experience,
+            idx
+          ) => (
             <VerticalTimelineElement
+              key={idx}
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#002058", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  #002058" }}
