@@ -95,7 +95,7 @@ const jobs = [
     title: "Software Developer",
     description:
       "Develop a web-based application to manage data acess, manipulation and safety.",
-    logo: "/src/assets/cevit.jpeg",
+    logo: "/cevit.jpeg",
     iconBgColor: "#241e20",
   },
   {
@@ -104,7 +104,7 @@ const jobs = [
     title: "Software Developer Intern",
     description:
       "I worked with a quality control app that implemented barcode scanners for its functionality.",
-    logo: "/src/assets/dialight.jpg",
+    logo: "/dialight.jpg",
     iconBgColor: "#ffffff",
   },
   {
@@ -113,7 +113,7 @@ const jobs = [
     title: "Frontend Software Developer",
     description:
       "Built the Expo Engineering 22' website. It was used by hundreds of judges and alumni to review and rate the event's projects.",
-    logo: "/src/assets/school.png",
+    logo: "/school.png",
     iconBgColor: "#000000",
   },
 ];

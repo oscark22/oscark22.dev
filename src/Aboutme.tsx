@@ -1,15 +1,13 @@
 import BlueRectangle from "./components/BlueRectangle";
 import { blueRectangles } from "./constants";
+import Me from "/src/assets/me.png";
 
 const Aboutme = () => {
   return (
     <section className="w-full min-h-screen mx-auto">
       <div className="flex flex-col lg:flex-row marginTop">
         <div className="flex flex-col mb-6 lg:mb-0 align-middle px-6 items-center lg:min-w-[400px]">
-          <img
-            src="src/assets/me.png"
-            className="object-cover object-center w-80 md:w-96"
-          />
+          <img src={Me} className="object-cover object-center w-80 md:w-96" />
         </div>
         <div className="flex flex-col paddingX">
           <h2 className="text-5xl font-serif">About me</h2>
