@@ -1,4 +1,5 @@
 import Aboutme from "./Aboutme";
+import Contact from "./Contact";
 import Experience from "./Experience";
 import Home from "./Home";
 import Navbar from "./Navbar";
@@ -12,6 +13,7 @@ function App() {
       </div>
       <Aboutme />
       <Experience />
+      <Contact />
     </div>
   );
 }

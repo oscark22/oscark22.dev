@@ -8,10 +8,6 @@ const links = [
     title: "About Me",
   },
   {
-    id: "tools",
-    title: "Tools",
-  },
-  {
     id: "experience",
     title: "Experience",
   },

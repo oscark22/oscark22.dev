@@ -5,8 +5,13 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="flex w-full paddingX pt-6 align-middle justify-between top-0 z-20">
-      <img src="/logo.png" className="object-cover w-10 sm:w-12" />
+    <div className="flex w-full paddingX pt-6 align-middle top-0 z-20">
+      <div className="flex mr-auto">
+        <img src="/logo.png" className="object-cover w-10 sm:w-12" />
+        <a className="flex ml-5 self-center text-white text-[16px] font-bold underline">
+          Currently in Dev (V0.2)
+        </a>
+      </div>
 
       <div className="hidden md:flex">
         <div className="flex gap-12 self-center">
