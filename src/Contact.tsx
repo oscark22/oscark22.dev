@@ -1,10 +1,8 @@
-import MessageCanvas from "./components/Message";
-
 const Contact = () => {
   return (
     <section className="relative h-screen w-full mx-auto bg-[#030D1F] paddingX marginTop bg-wave-pattern-2 bg-cover">
       <div className="flex h-full flex-row sm:pb-16 pb-6 justify-center">
-        <div className="flex h-full flex-col min-w-[500px] bg-primary p-8 rounded-lg">
+        <div className="flex h-5/6 lg:h-full w-full flex-col max-w-[500px] bg-primary p-8 rounded-lg self-center">
           <p className="text-white">Let's get in Touch</p>
           <h2 className="text-white text-5xl font-serif">Contact me</h2>
           <form className="flex flex-col mt-8 gap-5 flex-grow">
@@ -33,6 +31,9 @@ const Contact = () => {
                 id="message"
                 name="message"
               />
+            </div>
+            <div className="flex flex-col px-3 py-2 bg-secondary self-start rounded-md ring-2 ring-white ring-offset-transparent text-white hover:bg-primary">
+              <button type="submit">Submit</button>
             </div>
           </form>
         </div>
