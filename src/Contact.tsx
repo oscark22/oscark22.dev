@@ -1,5 +1,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+import { fadeIn } from "./variants";
 
 interface Email {
   name: string;
@@ -63,7 +65,13 @@ const Contact = () => {
       id="contact"
       className="relative h-screen w-full mx-auto bg-[#030D1F] paddingX marginTop bg-wave-pattern-2 bg-cover"
     >
-      <div className="flex h-full flex-row sm:pb-16 pb-6 justify-center">
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeIn("spring", 1, 0.2)}
+        className="flex h-full flex-row sm:pb-16 pb-6 justify-center"
+      >
         <div className="flex h-5/6 lg:h-full w-full flex-col max-w-[500px] bg-primary p-8 rounded-lg self-center">
           <p className="text-white">Let's get in Touch</p>
           <h2 className="text-white text-5xl font-serif">Contact me</h2>
@@ -105,7 +113,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

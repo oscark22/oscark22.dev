@@ -24,7 +24,7 @@ const Navbar = () => {
               to={item.id}
               spy={true}
               smooth={true}
-              duration={500}
+              duration={600}
             >
               {item.title}
             </Link>
