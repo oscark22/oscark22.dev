@@ -4,7 +4,7 @@ import Me from "/src/assets/me.png";
 
 const Aboutme = () => {
   return (
-    <section className="w-full min-h-screen mx-auto">
+    <section id="aboutme" className="w-full min-h-screen mx-auto">
       <div className="flex flex-col lg:flex-row marginTop">
         <div className="flex flex-col mb-6 lg:mb-0 align-middle px-6 items-center lg:min-w-[400px]">
           <img src={Me} className="object-cover object-center w-80 md:w-96" />

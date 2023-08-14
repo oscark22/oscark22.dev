@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { links } from "./constants";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -16,13 +17,17 @@ const Navbar = () => {
       <div className="hidden md:flex">
         <div className="flex gap-12 self-center">
           {links.map((item, idx) => (
-            <a
+            <Link
               key={idx}
-              href={item.id}
-              className="text-white text-[16px] hover:font-bold"
+              className="text-white text-[16px] hover:font-bold hover:cursor-pointer"
+              activeClass="active"
+              to={item.id}
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               {item.title}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
@@ -67,14 +72,19 @@ const Navbar = () => {
       >
         <div className="flex flex-col gap-2">
           {links.map((item, idx) => (
-            <a
+            <Link
               key={idx}
-              href={item.id}
               className="text-white text-[16px] hover:font-bold"
-              onClick={() => setToggle(false)}
+              activeClass="active"
+              to={item.id}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              delay={1000}
             >
               {item.title}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
@@ -83,3 +93,12 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// <a
+//   key={idx}
+//   href={item.id}
+//   className="text-white text-[16px] hover:font-bold"
+//   onClick={() => setToggle(false)}
+// >
+//   {item.title}
+// </a>

@@ -16,7 +16,7 @@ interface Experience {
 
 const Experience = () => {
   return (
-    <section className="relative w-full mx-auto bg-[#030D1F]">
+    <section id="experience" className="relative w-full mx-auto bg-[#030D1F]">
       <div className="flex flex-col paddingY paddingX">
         <h2 className="text-5xl font-serif text-white">Experience</h2>
         <p className="text-tertiary mt-4 text-md max-w-lg">
