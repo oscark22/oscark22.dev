@@ -1,8 +1,8 @@
 const links = [
-  {
-    id: "home",
-    title: "Home",
-  },
+  // {
+  //   id: "home",
+  //   title: "Home",
+  // },
   {
     id: "aboutme",
     title: "About Me",

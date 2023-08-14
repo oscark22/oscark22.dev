@@ -1,7 +1,7 @@
 import ComputerCanvas from "./components/Computer";
 
 const Home = () => (
-  <section id="home" className="relative w-full h-full mx-auto">
+  <section className="relative w-full h-full mx-auto">
     <div className="absolute flex flex-col xl:flex-row top-[60px] xl:top-[100px] inset-0 paddingX mt-12 lg:mt-20">
       <div className="flex flex-col">
         <p className="text-tertiary">Hi, My name is Oscar Encinas</p>

@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="flex mr-auto">
         <img src="/logo.png" className="object-cover w-10 sm:w-12" />
         <a className="flex ml-5 self-center text-white text-[16px] font-bold underline">
-          Currently in Dev (V0.2)
+          Currently in Dev (V0.6)
         </a>
       </div>
 
