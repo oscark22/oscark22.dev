@@ -9,8 +9,12 @@ const Navbar = () => {
     <div className="flex w-full paddingX pt-6 align-middle top-0 z-20">
       <div className="flex mr-auto">
         <img src="/logo.png" className="object-cover w-10 sm:w-12" />
-        <a className="flex ml-5 self-center text-white text-[16px] font-bold underline">
-          Currently in Dev (V0.6)
+        <a
+          href="https://github.com/oscark22/oscark22.dev"
+          target="_blank"
+          className="flex ml-5 self-center text-white text-[16px] font-bold hover:underline"
+        >
+          V1.0
         </a>
       </div>
 
@@ -19,7 +23,7 @@ const Navbar = () => {
           {links.map((item, idx) => (
             <Link
               key={idx}
-              className="text-white text-[16px] hover:font-bold hover:cursor-pointer"
+              className="text-white text-[16px] hover:underline hover:cursor-pointer"
               activeClass="active"
               to={item.id}
               spy={true}
